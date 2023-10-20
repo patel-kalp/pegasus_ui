@@ -58,7 +58,7 @@ const Home = () => (
           </p>
         </div>
       </Stack>
-      <RedirectButton url={`/getStarted`} />
+      <RedirectButton url={`/gettingStarted`} />
     </Stack>
   </div>
 );

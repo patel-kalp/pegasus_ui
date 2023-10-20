@@ -1,5 +1,5 @@
 import { NavBar, Footer } from './components';
-import { Home, GettingStarted, HttpsRequests, SDK, Docs, LogIn } from './pages'
+import { Home, GettingStarted, HTTPSExample, SDKExample, Docs, LogIn } from './pages'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -12,8 +12,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gettingStarted" element={<GettingStarted />} />
-            <Route path="/httpsExample" element={<HttpsRequests />} />
-            <Route path="/sdkExmaple" element={<SDK />} />
+            <Route path="/httpsExample" element={<HTTPSExample />} />
+            <Route path="/sdkExample" element={<SDKExample />} />
             <Route path="/docs" element={<Docs />} />
             <Route path="/logIn" element={<LogIn />} />
           </Routes>

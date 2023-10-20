@@ -20,7 +20,7 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/" className="tab-spacing">Home</Nav.Link>
             <Nav.Link as={Link} to="/gettingStarted" className="tab-spacing">Getting Started</Nav.Link>
             <NavDropdown title="Examples" id="basic-nav-dropdown" className="tab-spacing">
-              <NavDropdown.Item as={Link} to="/httpsExample">HTTPS Requests</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/httpsExample">HTTPS</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/sdkExample">SDK</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/docs" className="tab-spacing">Docs</Nav.Link>
