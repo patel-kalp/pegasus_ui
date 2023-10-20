@@ -1,7 +1,8 @@
 import Stack from "react-bootstrap/Stack";
-import "./Home.css";
-import Yeti from '../../static/yeti.png';
 import RedirectButton from "../../components/RedirectButton";
+import yeti from '../../static/yeti.png';
+import nessieSnake from '../../static/nessie_snake.png';
+import "./Home.css";
 
 const Home = () => (
   <div className="home-container">
@@ -37,13 +38,13 @@ const Home = () => (
           </p>
         </div>
         <div className="p-2">
-          <img src={Yeti} alt="Yeti" />
+          <img src={nessieSnake} alt="Yeti" />
         </div>
       </Stack>
       <hr />
       <Stack direction="horizontal" gap={2} className="home-text">
         <div className="p-2">
-          <img src={Yeti} alt="Yeti" />
+          <img src={yeti} alt="Yeti" />
         </div>
         <div className="p-2">
           <h2>What is Yeti?</h2>
