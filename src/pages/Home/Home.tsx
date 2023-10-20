@@ -9,18 +9,13 @@ const Home = () => (
     <Stack direction="vertical" gap={5}>
       <div className="p-2 home-title">
         <h1>Capital One Hackathon APIs</h1>
-        <p>You're the bank. How will you reimagine</p>
+        <p>You're the bank. How will you reimagine?</p>
       </div>
       <div className="p-2">
         <h2>Hackthon APIs Overview</h2>
         <div className="home-subtitle">
         <p>
-          If you're visiting this page, you're likely here because you're
-          searching for a random sentence. Sometimes a random word just isn't
-          enough, and that is where the random sentence generator comes into
-          play. By inputting the desired number, you can make a list of as many
-          random sentences as you want or need. Producing random sentences can
-          be helpful in a number of different ways.
+        Welcome Our Hackathon APIs give you access to a multitude of real public-facing data - such as ATM and bank branch locations - along with mock customer account data. Use HTTP requests to set up peer-to-peer transactions, simulate a weekly paycheck, or even schedule bills for customers! This is all structured in a way that resembles how we actually run things here at Capital One.
         </p>
       </div>
       </div>
@@ -29,12 +24,7 @@ const Home = () => (
         <div className="p-2">
           <h2>What is Nessie?</h2>
           <p>
-            If you're visiting this page, you're likely here because you're
-            searching for a random sentence. Sometimes a random word just isn't
-            enough, and that is where the random sentence generator comes into
-            play. By inputting the desired number, you can make a list of as
-            many random sentences as you want or need. Producing random
-            sentences can be helpful in a number of different ways.
+          Nessie is Capital One’s Hackathon REST API that gives you access to a multitude of real public-facing data - such as ATM and bank branch locations - along with mock customer account data. Use HTTP requests to set up peer-to-peer transactions, simulate a weekly paycheck, or even schedule bills for customers! This is all structured in a way that resembles how we actually run things here at Capital One.
           </p>
         </div>
         <div className="p-2">
@@ -49,12 +39,7 @@ const Home = () => (
         <div className="p-2">
           <h2>What is Yeti?</h2>
           <p>
-            If you're visiting this page, you're likely here because you're
-            searching for a random sentence. Sometimes a random word just isn't
-            enough, and that is where the random sentence generator comes into
-            play. By inputting the desired number, you can make a list of as
-            many random sentences as you want or need. Producing random
-            sentences can be helpful in a number of different ways.
+          Nessie is Capital One’s Hackathon REST API that gives you access to a multitude of real public-facing data - such as ATM and bank branch locations - along with mock customer account data. Use HTTP requests to set up peer-to-peer transactions, simulate a weekly paycheck, or even schedule bills for customers! This is all structured in a way that resembles how we actually run things here at Capital One.
           </p>
         </div>
       </Stack>

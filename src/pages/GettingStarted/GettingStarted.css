@@ -1,0 +1,38 @@
+.getting-started-container {
+    color: #4a4a4a;
+    display: inline-block;
+}
+
+h1 {
+    color: #141414;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.banner {
+    background-color: #255F82;
+    width:100%;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 100; /* Corrected font-weight value */
+}
+
+p {
+    font-size: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h3 {
+    font-size: 16px;
+    color: #255F82;
+}
+
+.h3 {
+    font-size: 16px;
+    color: #255F82;
+  }
