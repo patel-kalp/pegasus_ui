@@ -1,0 +1,32 @@
+.home-container {
+    font-family: Montserrat, sans-serif;
+    color: #4a4a4a;
+    display: inline-block;
+
+}
+
+.home-title {
+    background-color: #255f82; /* Background color for the login button */
+    color: #f4f4f4;
+}
+.home-text {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.home-subtitle {
+    font-size: 16px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+}
+
+p {
+    font-size: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
