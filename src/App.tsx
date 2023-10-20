@@ -1,5 +1,4 @@
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import { NavBar, Footer } from './components';
 import './App.css';
 
 function App() {
