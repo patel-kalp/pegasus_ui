@@ -1,0 +1,19 @@
+.examples-container {
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.examples-title {
+    background-color: #255f82; 
+    padding: 10px;
+}
+
+.examples-title a {
+    color: #f4f4f4; 
+    font-size:30px;
+ }
+  
+  .examples-title a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+  }
