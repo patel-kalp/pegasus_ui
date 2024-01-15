@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import './Examples.css'
+import Gist from "react-gist";
+
 const Examples = () => {
   const [selectedLanguage, setSelectedLanguage] = useState('py');
 
@@ -38,21 +40,24 @@ const Examples = () => {
           </Nav.Link>
         </Nav.Item>
       </Nav>
+      <div className='subtitle'>HTTP requests can be made using various languages and libraries. Check out some of our favorite examples!</div>
+      <div className="gist" >
       {selectedLanguage === 'py' && (
-        <script src="https://gist.github.com/freefood89/99769cdc061b2716f72e.js"></script>
+        <Gist id="99769cdc061b2716f72e"/>
       )}
       {selectedLanguage === 'js' && (
-        <script src="https://gist.github.com/freefood89/e31d909c05bba8955a65.js"></script>
+        <Gist id="e31d909c05bba8955a65"/>
       )}
       {selectedLanguage === 'go' && (
-        <script src="https://gist.github.com/freefood89/fa007400e8f27db551dd.js"></script>
+        <Gist id="fa007400e8f27db551dd"/>
       )}
       {selectedLanguage === 'java' && (
-        <script src="https://gist.github.com/freefood89/0544407878bb72fd2ec2.js"></script>
+        <Gist id="0544407878bb72fd2ec2"/>
       )}
       {selectedLanguage === 'swift' && (
-       <script src="https://gist.github.com/freefood89/931b43f85bd1db12de83.js"></script>
+       <Gist id="931b43f85bd1db12de83"/>
       )}
+      </div>
     </div>
   );
 };
