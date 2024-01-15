@@ -5,7 +5,7 @@ import postman from '../../static/postman.png'
 import "./GettingStarted.css";
 
 const GettingStarted = () =>(
-    <Stack direction="vertical"  gap={5} className='getting-started-container'>
+  <div className="getting-started-container">
       <div className="p-2">
       <h1>Getting Started</h1>
         <div className="banner">
@@ -54,7 +54,7 @@ api.reimaginebanking.com/customers?key=9203847529304875</p>
           alt="postman"
         />
         </div>
-    </Stack>
+        </div>
 );
 
 export default GettingStarted;

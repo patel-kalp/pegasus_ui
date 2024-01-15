@@ -1,0 +1,33 @@
+.examples-container {
+    color: #4a4a4a;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.examples-title {
+    background-color: #255f82; 
+    padding: 10px;
+}
+
+.examples-title a {
+    color: #f4f4f4; 
+    font-size:30px;
+ }
+  
+.examples-title a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+.subtitle{
+    color:#255F82;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.gist {
+    padding-left: 20%;
+    padding-right: 20%;
+}
