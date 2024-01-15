@@ -43,19 +43,34 @@ const Examples = () => {
       <div className='subtitle'>HTTP requests can be made using various languages and libraries. Check out some of our favorite examples!</div>
       <div className="gist" >
       {selectedLanguage === 'py' && (
+        <div>
+          <h3>Python</h3>
         <Gist id="99769cdc061b2716f72e"/>
+        </div>
       )}
       {selectedLanguage === 'js' && (
+        <div>
+        <h3>JavaScript</h3>
         <Gist id="e31d909c05bba8955a65"/>
+        </div>
       )}
       {selectedLanguage === 'go' && (
+        <div>
+        <h3>Go</h3>
         <Gist id="fa007400e8f27db551dd"/>
+        </div>
       )}
       {selectedLanguage === 'java' && (
-        <Gist id="0544407878bb72fd2ec2"/>
+        <div>
+        <h3>Java</h3>
+        <Gist id="0544407878bb72fd2ec2"/>        
+        </div>
       )}
       {selectedLanguage === 'swift' && (
+        <div>
+        <h3>Swift</h3>
        <Gist id="931b43f85bd1db12de83"/>
+       </div>
       )}
       </div>
     </div>
