@@ -21,6 +21,7 @@ const NavBar = () => {
             <Nav.Link as={Link} to="/GettingStarted" className="tab-spacing">Getting Started</Nav.Link>
             <Nav.Link as={Link} to="/Examples" className="tab-spacing">Examples</Nav.Link>
             <Nav.Link as={Link} to="/Docs" className="tab-spacing">Docs</Nav.Link>
+            <Nav.Link as={Link} to="/SDK" className="tab-spacing">SDK</Nav.Link>
             <Button className="tab-spacing">Login</Button>
           </Nav>
         </Navbar.Collapse>
